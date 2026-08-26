@@ -39,7 +39,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T05:31:42.460Z  
+**Submitted:** 2026-08-26T05:32:44.317Z  
 
 ```java
 import java.util.*;
@@ -66,8 +66,10 @@ class Codechef
 		            maxN = arr[i];
 		        }
 		    }
+		
+		    System.out.println(maxN);
 		}
-		System.out.println(maxN);
+		
         
 	}
 }
