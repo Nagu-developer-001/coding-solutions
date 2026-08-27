@@ -61,7 +61,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T12:56:26.309Z  
+**Submitted:** 2026-08-27T13:01:05.728Z  
 
 ```java
 import java.util.Scanner;
@@ -78,20 +78,24 @@ public class Main {
             for (int i = 0; i < n; i++) {
                 a[i] = scanner.nextInt();
             }
-            // Your code goes here
-            int max = a[0];
-            int SecondMax = a[0];
-            for(int i=0;i<n;i++){
-                if(a[i]>max){
-                    SecondMax = max;
-                    max = a[i];
-            }else if(a[i]>SecondMax && a[i]!=max){
-                SecondMax = a[i];
+            int firstMax = Integer.MIN_VALUE;
+            int secondMax = Integer.MIN_VALUE;
+
+            for (int i = 0; i < n; i++) {
+                if (a[i] > firstMax) {
+                    secondMax = firstMax;
+                    firstMax = a[i];
+                } else if (a[i] > secondMax && a[i] != firstMax) {
+                    secondMax = a[i];
+                }
             }
+
+            int maxSum = firstMax + secondMax;
+            System.out.println(maxSum);
         }
-        System.out.println(max+SecondMax);
+
+        scanner.close();
     }
-}
 }
 ```
 
