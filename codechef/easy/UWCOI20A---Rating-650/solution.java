@@ -22,8 +22,10 @@ class Codechef
 		            maxN = arr[i];
 		        }
 		    }
+		
+		    System.out.println(maxN);
 		}
-		System.out.println(maxN);
+		
         
 	}
 }
