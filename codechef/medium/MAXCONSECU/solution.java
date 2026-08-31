@@ -1,14 +1,10 @@
     public static int findMaxConsecutiveOnes(int[] nums) {
        //write code here...
-       int streak = 0;
-       int maxStreak = 0;
-       for(int num : nums){
-           if(num==1){
-               streak += 1;
-               maxStreak = Math.max(streak,maxStreak);
-           }else{
-               streak = 0;
+       int cnt = 0;
+       for(int i=0;i<nums.length-1;i++){
+           if(nums[i]==1&&nums[i+1]==1){
+               cnt+=2;
            }
        }
-       return maxStreak;
+       return cnt;
     }
