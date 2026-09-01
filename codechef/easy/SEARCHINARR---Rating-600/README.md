@@ -60,16 +60,15 @@ NO
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T13:07:15.678Z  
+**Submitted:** 2026-09-01T13:25:29.573Z  
 
 ```java
 public static String solve(int N, int X, int[] A) {
     for(int i=0;i<N;i++){
-        if(A[i]==X){
+        if(A[i] == X){
             return "YES";
-            //break;
         }
-    }
+    }    
     return "NO";
 }
 ```
