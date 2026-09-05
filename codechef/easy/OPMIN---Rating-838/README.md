@@ -67,7 +67,7 @@ Since all elements of the final array are $2$, the maximum value of the array is
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-04T12:49:13.435Z  
+**Submitted:** 2026-09-04T12:49:19.459Z  
 
 ```java
 import java.util.Scanner;
