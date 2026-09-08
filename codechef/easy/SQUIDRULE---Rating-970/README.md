@@ -67,7 +67,7 @@ Therefore, we can clearly see that the maximum amount of money that can be won b
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T05:37:45.737Z  
+**Submitted:** 2026-09-08T01:56:29.604Z  
 
 ```java
 import java.util.*;
