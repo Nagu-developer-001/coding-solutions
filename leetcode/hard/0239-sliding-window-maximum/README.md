@@ -46,9 +46,9 @@ Output: [1]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms  
-**Memory:** 42.7 MB  
-**Submitted:** 2026-09-22T16:27:08.376Z  
+**Runtime:** 33 ms (beats 29.00%)  
+**Memory:** 155.9 MB (beats 16.46%)  
+**Submitted:** 2026-09-22T16:27:14.338Z  
 
 ```java
 import java.util.Deque;
