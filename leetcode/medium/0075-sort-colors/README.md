@@ -48,8 +48,8 @@ The array has one each of 0, 1, and 2, arranged in-place in the order 0, 1, 2.
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 43.4 MB (beats 57.59%)  
-**Submitted:** 2026-10-09T17:52:08.712Z  
+**Memory:** 42.9 MB (beats 99.12%)  
+**Submitted:** 2026-10-15T16:37:15.412Z  
 
 ```java
 class Solution {
