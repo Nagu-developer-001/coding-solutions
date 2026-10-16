@@ -46,9 +46,9 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 ## Solution
 
 **Language:** Java  
-**Runtime:** 37 ms (beats 81.41%)  
-**Memory:** 48.2 MB (beats 7.40%)  
-**Submitted:** 2026-10-13T17:10:30.551Z  
+**Runtime:** 38 ms (beats 77.95%)  
+**Memory:** 47.7 MB (beats 87.51%)  
+**Submitted:** 2026-10-16T18:05:33.602Z  
 
 ```java
 import java.util.HashMap;
