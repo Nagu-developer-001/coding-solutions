@@ -54,9 +54,9 @@ An input string is valid if:
 ## Solution
 
 **Language:** Java  
-**Runtime:** 3 ms (beats 83.11%)  
-**Memory:** 43.3 MB (beats 40.39%)  
-**Submitted:** 2026-10-07T16:28:43.952Z  
+**Runtime:** 3 ms (beats 83.29%)  
+**Memory:** 42.8 MB (beats 94.72%)  
+**Submitted:** 2026-10-19T16:45:30.849Z  
 
 ```java
 class Solution {
@@ -64,21 +64,20 @@ class Solution {
         Stack<Character> s = new Stack<>();
         for(int i=0;i<str.length();i++){
             char ch = str.charAt(i);
-            if(ch == '(' ||ch == '[' ||ch == '{'){
+            if(ch == '{' || ch == '(' || ch == '['){
                 s.push(ch);
-            }else{
+            }else
+            {
                 if(s.isEmpty()) return false;
-                if(ch == ')' && s.peek() == '(' ||
-                   ch == '}' && s.peek() == '{' ||
-                   ch == ']' && s.peek() == '['){
-                    s.pop();
-                   }
-                else return false;
+                if(ch == ')' && s.peek() == '('||
+                   ch == '}' && s.peek() == '{'||
+                   ch == ']' && s.peek() == '[') {s.pop();}
+                   else{return false;}
             }
-        }
-        if(s.isEmpty()) return true;
-        else return false;
     }
+    if(s.isEmpty()) return true;
+    else return false;
+}
 }
 ```
 
