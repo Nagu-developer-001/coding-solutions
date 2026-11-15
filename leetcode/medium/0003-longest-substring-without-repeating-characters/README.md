@@ -8,6 +8,8 @@ Given a string `s`, find the length of the  **longest**   **substring**  without
 
  
 
+Original
+Java
  **Example 1:** 
 
 ```
@@ -46,9 +48,9 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 ## Solution
 
 **Language:** Java  
-**Runtime:** 38 ms (beats 77.95%)  
-**Memory:** 47.7 MB (beats 87.51%)  
-**Submitted:** 2026-10-16T18:05:33.602Z  
+**Runtime:** 38 ms (beats 81.08%)  
+**Memory:** 47.4 MB (beats 82.69%)  
+**Submitted:** 2026-11-15T16:39:43.893Z  
 
 ```java
 import java.util.HashMap;
