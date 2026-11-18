@@ -51,8 +51,8 @@ Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
 
 **Language:** C#  
 **Runtime:** 1 ms (beats 100.00%)  
-**Memory:** 36.3 MB (beats 87.02%)  
-**Submitted:** 2026-11-12T15:38:11.626Z  
+**Memory:** 36.1 MB (beats 92.11%)  
+**Submitted:** 2026-11-18T17:05:01.399Z  
 
 ```cs
 public class Solution {
